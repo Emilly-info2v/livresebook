@@ -106,6 +106,8 @@ body{
     background: var(--orange); 
 }
 
+/* Section 1 */
+
 .home{
     width: 100%;
     height: 100%;
@@ -167,7 +169,59 @@ body{
 .home-img img{
     width: 100%;
 }
+.linha{
+    width: 90%;
+    height: 0.5pt;
+    background: rgb(255, 123, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Section 2 */
 
+.home1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+}
+.home1-text{
+    max-width: 37rem;
+}
+.home1-text .text1-h4{
+    font-size: 1.5rem;
+    color: var(--orange);
+    margin-bottom: 1rem;
+}
+.home1-text .text1-h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+.home1-text p{
+    margin-bottom: 4rem;
+}
+.home1-btn{
+    padding: 15px 45px;
+    background: var(--orange);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.home1-btn:hover{
+    background: #fc4c35;
+}
+
+/* Footer provisório*/
+.footer-prov{
+    width: 100%;
+    height: 300px;
+    background: gray;
+}
+
+/* Responsivo */
 @media (max-width:785px) {
     .navigation{
         padding: 18px 20px;
